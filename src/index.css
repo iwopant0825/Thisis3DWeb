@@ -1,0 +1,25 @@
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Pretendard-Light";
+  font-weight: normal;
+  src: url("../public/font/Pretendard-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pretendard-Bold";
+  font-weight: bold;
+  src: url("../public/font/Pretendard-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pretendard-Medium";
+  font-weight: 500;
+  src: url("../public/font/Pretendard-Medium.otf") format("truetype");
+}
